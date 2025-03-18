@@ -27,7 +27,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `https://login-page-13k8-ui.vercel.app/auth/login`;
+            const url = `https://login-page-flax-three.vercel.app/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

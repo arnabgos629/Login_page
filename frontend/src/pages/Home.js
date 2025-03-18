@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://login-page-13k8-ui.vercel.app/products";
+            const url = "https://login-page-flax-three.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
